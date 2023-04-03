@@ -1,0 +1,395 @@
+.shapka{
+
+max-width: 1200px;
+margin-left: 315px;
+background: #090404;
+}
+.mm{
+	display: flex;
+	justify-content:center;
+}
+.music_market {
+	color:red;
+	
+	max-width: 235px;
+}
+.market{
+	color:white;
+
+max-width: 225px;
+
+}
+.logo_img {
+	margin: 0 auto;
+background: url(image.png);
+border-radius: 15px;}
+
+.rec__title{
+	color: white;
+	list-style: none;
+}
+.nav__item {
+	color: white; 
+	list-style: none;	
+}
+.conteiner{
+	max-width: 1440px;
+	margin:0 auto;
+	padding: 50px;
+} 
+.conteiner__header {
+	display: flex;
+	justify-content: space-between;
+	border-top: 2px solid white;
+	padding: 10px;
+}
+.nav {
+	margin:auto;
+}
+.nav__list{
+text-decoration: none;
+
+
+font-family: 'Comic Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.nav__item {
+
+}
+.rec__img{
+
+}
+.rec__title{
+font-family: 'Comic Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+
+color: #000000;
+margin: auto 0;
+}
+
+.nav__link1{
+font-family: 'Comic Neue';
+color: white;
+text-decoration: none;
+
+
+font-family: 'Comic Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rec__img {
+	list-style:none;
+	margin: 5px;
+}
+.rec {
+	display: flex;
+	background: #D9D9D9;
+padding: 0;
+}
+.logo {
+}
+.logo__a {
+
+}
+
+.logo_img {
+
+}
+
+
+
+.header__input{
+	background: #483F3F;
+	padding: 10px;
+
+
+}
+.header_middle{
+margin: auto 0;
+}
+.header_left{
+margin: auto 0;
+}
+.header_right {
+margin: auto 0;
+}
+.nav_2{
+	list-style:none;
+	font-family: 'Comic Neue';
+
+}
+.aside__top{
+	max-width: 282px;
+	background:#D9D9D9;
+	padding: 0;
+	border-radius: 30px;
+
+}
+.you_profile{
+margin: 15px 0 0 35px;
+}
+.nav_aside_top{
+	font-size: 40px;
+margin-bottom: 10px;
+
+}
+.conteiner__home{
+	padding: 20px;
+}
+.aside {
+	left: 10px;
+	position: fixed;
+	top: 5px;
+
+}
+
+.review{
+	font-family: 'Comic Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 40px;
+
+color: #000000;
+width: 280px;
+
+}
+.botton{
+	height: 750px;
+	margin-top: 5px;
+}
+.comment_block{
+	max-width: 299px;
+	background:#D9D9D9;
+}
+.review_name_photo{
+	padding: 20px;
+}
+.review_text{
+	padding: 10px;
+}
+.name_profile1{
+	
+font-family: 'Comic Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+background: #B0AAAA;
+padding: 15px;
+max-width: 174px;
+border-radius: 30px;
+max-height: 75px;
+}
+.conteiner__home{
+	display: flex;
+}
+.photo_profile{
+margin-right: 20px;
+margin: auto;
+width: 60px;
+
+}
+.bit{
+	padding-left: 15px;
+	max-width:854px;
+	max-height: 474px;
+}
+.content{
+	display: flex;
+
+}
+.sale_text{
+	display: flex;
+	font-family: 'Comic Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+
+color: white;
+background:grey;
+max-width: 166px;
+
+
+
+}
+
+.sale_text2{
+	padding: 10px;
+		font-family: 'Comic Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+background: grey;
+color: black;
+
+max-width: 166px;
+
+
+}
+.text_sale_main{
+background:grey;
+max-width: 166px;
+
+margin-bottom: 0;
+}
+.price{
+	display: flex;
+	margin-top: 300px;
+}
+.profile_conteiner{
+	display: flex;
+}
+
+
+/*-----Для линиии-------- 1) нужно поставить разное позиционирование,
+ для родительского элемента relative
+ 2) а для дочернего absolute,тогда они будут накладываться друг на друга*/ 
+.sale_text{
+	position: relative; 
+	padding: 10px;
+}
+/*:before - это псевдоэлемент, псведоэлементы помогают стилизировать 
+определенную часть элемента*/
+.sale_text:before{
+border-bottom: 3px solid red;
+position: absolute;
+content: ""; /* нужно обязательно для before */
+width: 90%;
+height: 30%;
+/*при помощи ширины и высоты так же меняется и положение линии*/
+transform: rotate(30deg);
+/*transform: rotate(30deg); - нужен для поворота элемента */
+}
+
+/*-----------*/
+
+.content{
+	background: #D9D9D9;/* добавил цвет чтобы было видно блок с которым работает (потом убери) */
+	height: 500px; /* высота чтобы ограничить блок по размеру */
+	margin-bottom: 20px; /* отступы между блоками */
+border-radius: 10px;
+}
+.main_content{
+	margin-left: 200px;
+
+}
+.footer_css{
+	color:black;
+	padding: 5px;
+	margin-left: 320px;
+	list-style: none;
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+}
+.footer_s{
+	margin: 0 ;
+padding: 0;
+
+}
+.footer_ss{
+
+padding: 40px;
+max-height: 61px;
+}
+.main_footer{
+	display: flex;
+	background: grey;
+max-height: 150px;
+justify-content: space-between;
+}
+.footer_ss2{
+width: 146px;
+height: 144px;
+}
+.footer_images{
+	display: flex;
+}
+/*------вторая секция ABOUT-----*/
+
+.bar{
+	background: #B0AAAA;
+	font-family: 'Comic Neue';
+	font-style: normal;
+
+}
+.bar__list{
+	margin-bottom: 0;
+}
+.bar__item{
+	list-style: none;
+font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+
+
+}
+.barchik{
+	display: flex;
+	padding-right: 300px;
+	
+}
+.rating{
+	background-color: #008000;
+height: 10px;
+width: 400px;
+}
+.rating2{
+	background-color: red;
+	height: 10px;
+width: 400px;
+}
+.rating2_0{
+	background-color: green;
+	height: 10px;
+width: 240px;
+}
+.rating2_00{
+	background-color: green;
+	height: 10px;
+width: 399px;
+}
+.titile_video{
+margin-top: 0;
+	
+}
+.about{
+background: grey;
+font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+
+}
+.titile_video{
+	
+color: white;
+text-align: center;
+}
+.text{
+max-width: 500px;
+color: white;
+margin-left: 45%;
+}
+/*------------reviews----------*/
